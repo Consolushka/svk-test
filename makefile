@@ -1,5 +1,5 @@
 install:
-	#cp -n .env.example .env
+	cp -n .env.example .env
 	docker-compose build
 	docker-compose up -d
 	docker exec -i app composer install

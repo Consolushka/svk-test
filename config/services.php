@@ -37,7 +37,6 @@ return [
 
     'booking' => [
         'external_client'   => env('BOOKING_CLIENT'),
-        'service'  => env('BOOKING_SERVICE'),
         'external_clients' => [
             'leadbook' => [
                 'url'   => env('LEADBOOK_URL'),

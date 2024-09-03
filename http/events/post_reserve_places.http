@@ -1,0 +1,8 @@
+POST http://0.0.0.0/api/events/1/reserve
+Accept: application/json
+Content-Type: application/json
+
+{
+  "places": [200],
+  "name": "Abrakadabra"
+}
